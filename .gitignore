@@ -1,0 +1,71 @@
+# KiCad auto-generated backups
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.000
+fp-info-cache
+ 
+# KiCad lock files
+*.lck
+ 
+# KiCad project local settings (machine-specific, not part of shared config)
+*.kicad_prl
+ 
+# Plot/Gerber/drill output (regenerate from source, don't version)
+*.pos
+*.drl
+*.gbr
+*.gbrjob
+*.g1
+*.g2
+*.g3
+*.gb1
+*.gb2
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gko
+*.gm1
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.nc
+*.xnc
+gerbers/
+plots/
+fabrication-outputs/
+ 
+# 3D model / rendering cache
+*.stl
+*.step_cache
+*.wrl
+ 
+# BOM / netlist exports (optional to ignore — comment out if you want these tracked)
+*.net
+*.xml
+*-bom.csv
+ 
+# Simulation output
+*.raw
+*.op-net
+spice/*.cir
+ 
+# Python / scripting cruft (common when scripting KiCad via pcbnew API)
+__pycache__/
+*.pyc
+ 
+# OS junk
+.DS_Store
+Thumbs.db
+ 
+# Editor/IDE junk
+.vscode/
+*.swp
+ 
+# Archive files people sometimes accidentally commit
+*.zip
+*.7z
+*.tar.gz
